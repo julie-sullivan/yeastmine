@@ -117,12 +117,14 @@
       <property name="src.data.dir" location="/share/intermine/go"/>
       <property name="src.data.dir.includes" value="gene_association.sgd-yeastmine"/>
     </source>
-    
+    <!--
+	# temporarily disable until we fix the keys
     <source name="psi-complexes" type="psi-complexes">
       <property name="src.data.dir" location="/share/intermine/psi/intact/complexes"/>
       <property name="intact.organisms" value="4932"/>
       <property name="complexes.source" value="sgd"/>
-    </source>
+      </source>
+     -->
     
     <source name="sgd-protein-properties" type="sgd-protein-properties">
       <property name="src.data.dir" location="/data/intermine/protein-properties"/>
